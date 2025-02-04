@@ -15,3 +15,11 @@ so you need to send out a new set of invitations. You’ll have to think of some
 myList2 = ["Waqar","Salman","Talha"]
 for i in myList:
     print(f'{i} I invite you to dinner with me ')
+
+"""
+• Start with your program from Exercise 14.
+ Add a print statement at the end of your program stating the name of the guest who can’t make it.
+"""
+myList = ["Waqar","Salman","Zain","Talha"]
+for i in myList:
+    print(f'{i} I invite you to dinner with me ')
