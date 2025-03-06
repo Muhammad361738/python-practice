@@ -135,3 +135,8 @@ print(myList,type(myList),"\n",myTup,type(myTup),"\n",mySet,type(mySet))
 
 
 """
+def convert_to_list():
+    myNumber = input("Enter the numbers (comma-separated): ")
+    myList = list(map(int, myNumber.split(",")))
+    print(myList, len(myList))
+convert_to_list()
